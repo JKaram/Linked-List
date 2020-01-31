@@ -1,11 +1,11 @@
-# Mystery of the Linked-List
+# Mystery of the Linked List
  
 I say it's a mystery because In preparation for job interviews I have been on sites like code wars and Leet code  solving problems. I load a question, think about it, struggle for a while, and finally have an 'aha!' moment before getting a solution.
  
  
 But every once in a while I see this.
  
-!["link to Google"](https://github.com/JKaram/Linked-List/blob/master/docs/Screen%20Shot%202020-01-31%20at%204.12.30%20PM.png?raw=true)
+!["link to Google"](https://github.com/JKaram/Linked-List/blob/master/docs/desc.png?raw=true)
  
 The input is looks like this
  
