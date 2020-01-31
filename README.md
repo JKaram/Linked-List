@@ -5,7 +5,7 @@ I say it's a mystery because In preparation for job interviews I have been on si
  
 But every once in a while I see this.
  
-!["link to Google"](https://github.com/JKaram/Linked-List/blob/master/docs/Screen%20Shot%202020-01-31%20at%2010.38.11%20AM.png?raw=true)
+!["link to Google"](https://github.com/JKaram/Linked-List/blob/master/docs/Screen%20Shot%202020-01-31%20at%204.12.30%20PM.png?raw=true)
  
 The input is looks like this
  
@@ -29,7 +29,7 @@ The technical definition is...
  
 A linked list is a collection of elements known as nodes. If you think of  Each node containing data AND a pointer to the next node. Here is the catch. You have to start from the head and iterate through the list until you arrive on the element you want (Sequential Access).
  
-![](https://github.com/JKaram/Linked-List/blob/master/docs/Screen%20Shot%202020-01-31%20at%2010.38.11%20AM.png?raw=true)
+![](https://github.com/JKaram/Linked-List/blob/master/docs/LinkedList.png?raw=true)
  
 That explains the name.
  
