@@ -1,6 +1,6 @@
 # Mystery of the Linked List
  
-In preparation for a job interviews, I have been using sites like [Codewars](https://www.codewars.com/dashboard) or [LeetCode](https://leetcode.com/). I load a question, think long and hard, struggle for a while, and eventually find a solution. 
+In preparation for job interviews, I have been using sites like [Codewars](https://www.codewars.com/dashboard) or [LeetCode](https://leetcode.com/). I load a question, think long and hard, struggle for a while, and eventually find a solution. 
 
 Every once in a while I see a question that requires the use of a linked list.
 My first reaction is that these are fancy names for arrays. Arrays are something that I see regularly and are easy to work with. What is this mysterious linked list?
@@ -16,7 +16,7 @@ My first reaction is that these are fancy names for arrays. Arrays are something
 !["LeetCode Input"](https://github.com/JKaram/Linked-List/blob/master/docs/Screen%20Shot%202020-01-31%20at%2010.14.35%20AM.png?raw=true)
  
  
-### My Attempt.
+### My Attempt. (Assuming these are arrays)
 ```
 const addTwoNumbers = function(l1, l2) {
    return [l1.reduce((a,b) => a + b) + l1.reduce((a,b) => a + b)].split('');
