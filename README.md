@@ -1,27 +1,30 @@
 # Mystery of the Linked List
  
-I say it's a mystery because In preparation for job interviews I have been on sites like code wars and Leet code  solving problems. I load a question, think about it, struggle for a while, and finally have an 'aha!' moment before getting a solution.
+In preparation for a job interviews, I have been using sites like [Codewars](https://www.codewars.com/dashboard) or [LeetCode](https://leetcode.com/). I load a question, think long and hard, struggle for a while, and eventually find a solution. 
+
+Every once in a while I see a question that requires the use of a linked list.
+My first reaction is that these are fancy names for arrays. Arrays are something that I see regularly and are easy to work with.
+
  
  
-But every once in a while I see this.
+## Here is an example of a linked list question.
  
-!["link to Google"](https://github.com/JKaram/Linked-List/blob/master/docs/desc.png?raw=true)
+!["LeetCode Question"](https://github.com/JKaram/Linked-List/blob/master/docs/desc.png?raw=true)
  
-The input is looks like this
+## The input is looks like this.
  
-!["link to Google"](https://github.com/JKaram/Linked-List/blob/master/docs/Screen%20Shot%202020-01-31%20at%2010.14.35%20AM.png?raw=true)
+!["LeetCode Input"](https://github.com/JKaram/Linked-List/blob/master/docs/Screen%20Shot%202020-01-31%20at%2010.14.35%20AM.png?raw=true)
  
  
-My first reaction was that these were fancy names for arrays.
- 
+## My Attempt.
 ```
 const addTwoNumbers = function(l1, l2) {
    return [l1.reduce((a,b) => a + b) + l1.reduce((a,b) => a + b)].split('');
 };
 ```
-Spoiler alert this ^^^ does not work.
+### Spoiler alert this ^^^ does not work.
  
-## So what is a linked list?
+# So what is a linked list?
  
 The technical definition is...
  
@@ -33,7 +36,7 @@ A linked list is a collection of elements known as nodes. If you think of  Each 
  
 That explains the name.
  
-##  Why use a linked list over an Array?
+#  Why use a linked list over an Array?
  
 So an array and linked list are similar. But an array sounds better; you can search an array by index or value without having to iterate through it (Random Access).
  
@@ -43,7 +46,7 @@ In case of linked list, a new element is stored at the first free and available 
  
 In array, Insertion and Deletion operation takes more time, as the memory locations are consecutive and fixed.
  
-## How to work with a Linked List
+# How to work with a Linked List
  
 As mentioned before, iterating through a linked list is a bit unintuitive.
  
@@ -53,13 +56,13 @@ var current = this.start;
 while (current !== null) {
 // do something which the current node
 current = current.next;
-// ^^^^^ Move to the next Node
+// Move to the next Node
 }
 ```
  
 There is no way of knowing how long a list is until you get to the last node with Null inside.
  
-Here is the answer to the above question
+Here is the answer to the Add two numbers problem.
  
 ```
 var addTwoNumbers = function(l1, l2) {
@@ -107,7 +110,7 @@ var addTwoNumbers = function(l1, l2) {
  
  
  
-Advantages of a linked list
+## Advantages of a linked list
  
 * Efficient to insert or remove items at any point in the list.
  
@@ -115,13 +118,13 @@ Advantages of a linked list
  
 * Memory requirements grow linearly with the list size.
  
-Disadvantages:
+## Disadvantages:
  
 * Finding the nth item is inefficient — order(list-size), vs constant-time for an array list.
  
 
-
-Generally an array is what you need.
+# So ... Is this something I needed to know?
+In regards to javascript, its unlikley to run into a linked list . However if you run into a interview question like Add two Sums, you'll be ready.
 
 
 # Sources
